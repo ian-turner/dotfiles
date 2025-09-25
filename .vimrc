@@ -3,3 +3,4 @@ set autoindent
 set expandtab
 set tabstop=4
 set shiftwidth=4
+autocmd BufNewFile,BufRead *.dpq setfiletype dpq
